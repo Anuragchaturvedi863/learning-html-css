@@ -1,0 +1,45 @@
+.wrapper{
+    background-color: tomato;
+    /* padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px; */
+    padding: 30px;
+    /* padding - border aur content ke beech mein space
+    left,right,bottom,top inme se need ke hisab se lagate hai
+    --------
+    content |
+            |
+    - - - - -    -ye horizontal line border hai border aur content ke beech mein space ko
+    padding bolte hai
+    yaha bina padding ke lorem data ekdum chipka hua tha border se left aur top se ,button chipka hua tha bottem
+    se right se theek tha isliye chipka hua na lage isliye padding use kari
+
+
+    yaha par chaaro direction mein same padding krni hai toh shorthand use karenge jese 30px top bottom left right */
+    border: 13px double blue;
+    /* border shorthand: thickness(in px) style color; */
+    /* border style - solid,dashed,dotted,double yaha wavy nahi hai */
+}
+.wrapper h1{
+    color: blue;
+    /* grouping selector .wrapper h1, wrapper button
+    grouping selector use karne ke liye parent selector uske baad space fir
+    wo element jispar css apply karni hai
+    agar .wrapper h1 nahi lagate direct h1{
+    color: aqua;
+} lagate toh h1 mein toh aqua color ho jata lekin wrapper class mein jo h1 hai uspe bhi hojata isliye grouping
+ selector use kara jisme wrapper ka h1 ki alag css ho aur dusre h1 ki alag,
+ doubt- h1 ki alag se class banate jese header toh .header{} ese target karte css mein, lekin usse
+ ek aur class ban jaati toh confusion hota developer ko ki wrapper ka konsa h1 hai ye pta krna difficult hota
+ isliye grouping selector use kara
+    
+     */
+}
+.wrapper button{
+    padding: 10px 40px;
+}
+/* button ko mota karna hai toh padding use karenge */
+/* ye shorthand hai 10px-(top bottom mein apply hoga) and 40px-(left and right mein)   */
+h1{
+    color: aqua;
+}

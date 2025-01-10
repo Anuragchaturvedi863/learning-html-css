@@ -1,0 +1,55 @@
+.navbar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* navbar parent uske do child hai h1 and ul ,h1 and ul dono column mein hai ab ek row meim karne
+    ke liye in dono ke parent navbar mein display flex lgaenge toho dono child k row min aajaenge  */
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    /* ab ul parent hai li aur a ki toh .navbar ul se target krnge h1 ko nhi lenge kyuki usme kuch css nhi apply
+    krna hai isliye parent navbar ki dusri cild ul ko lenge isme display flex lgaenge */
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 50px;
+    flex-wrap: wrap;
+    /* flex-wrap nav section mein nhi lgaenge nav ke baad ke sections mein lagaenge
+    isse responsive ban jaegi website yaani mobile aur table view mein ek ke upr ek nhi ayega */
+
+}
+.container div h2{
+    font-size: 50px;
+}
+.container div p{
+    margin: -23px;
+    /* margin minus mein dene s upar khisakta hai content */
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /* agar laptop mein content image
+                        image   content aisa diya hai toh mobile view m content
+                                                                         image
+                                                                         image
+                                                                         content toh ye mobile mwin acha nhi
+    lagega kyuki image ke baad iamge aa jaegi toh isko theek karne ke liye wrap-reverse lgaenge toh ye lgane se
+    mobile mein contnt
+                 image
+                 content
+                 image aisa dikhega lekin laptop mein same hi rahega aisa content image
+                                                                           image  content */
+}

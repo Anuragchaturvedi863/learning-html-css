@@ -1,0 +1,29 @@
+.head{
+    text-shadow: -12px -13px 10px black;
+    /* text-shadow: horizontal vertical blur color */
+    /* text shadow mein 4 values hoti hai horizontal matlab seedha yaani -______+ toh 2px yani positive mein toh right side mein jaega shadow aur -2px matlab left side mein jaega shadow,wese hi vertical matlab tedha -
+    _
+    _
+    _ 
+    _
+    +
+    toh 2x yani positive mein jaega toh neeche jaega aur -2px matlab upar side mein jaega shadow*/
+    color: blueviolet;
+    font-size: 90px;
+    letter-spacing: 20px; 
+     /*do letter ke beech mein spacing ex - a  n   u  r  a  g  */
+    font-family: verdana;
+    
+}
+.para{
+    font-size: 18px;
+    font-style: italic;
+    word-spacing: 20px;
+    /* do words  ke beech mein spacing  anurag    chaturvedi*/
+
+    line-height: 50px;
+    /* do line ke beech mein spacing 
+    I am Anurag
+    
+    I am full stack web developer*/
+}

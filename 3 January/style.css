@@ -1,0 +1,61 @@
+.container{
+    background-color: aqua;
+    padding: 20px;
+    border: 4px solid green;
+
+}
+.container1{
+    background-color: bisque;
+    padding: 20px;
+    /* margin:30px */
+    /* padding jese margin ka shorthand hoga
+    all sides krni hai toh sirf ek 30px, 20px 30px-left right top bottom
+    margin - container ya border ke outside space dene ke liye margin use karte
+    agar container and container1 ek dusre se chipke hai space nhi hai toh space dene ke liye margin lgaenge
+    margin top lgane se container1 neeche khisak jaega */
+    border-left: 14px solid green;
+    /* border-right: ;
+    border-bottom: ;
+    border-top: ; */
+
+    /* border ki properties thickness style color, sirf left side mein border lgane ke border-left */
+    margin-top: 30px;
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    /* div,section ki height jitna content hai utna rehta hai , width 100% hai yaani puri screen ,height 200px and width px
+    set krne se kam kar diya ya set kar diya height and width */
+    background-color: blueviolet;
+    margin-top: 30px;
+    border-radius: 30px;
+    /* isme chaaro side se halka curve hoga */
+    /* border-radius: 50%; */ 
+    /* 50 % krne se isse pura circle hojaega
+    px - chote chote particles %- screen ke hisaab se yaani 100% krenge toh jaha bhi view karenge waha ke liye 100% agar 
+    desktop pr kare toh uske screen ka 100%, mobile par kare toh uske screen ka 100%  */
+    /* border-top-left-radius: 150px;
+    border-bottom-right-radius: 50px;
+     */
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    margin-left: 520px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 8px 3px yellow
+    /* line-height */
+    /* isme box shadow mein 5 properties hoti hai
+    horizontal vertical blur spread color
+    0px horizontal 0px vertical krne se box ke ekdum peeche aayegi shadow
+    0 px ke aage positive hai shadow right side mein aayegi aur negative value jese -20px mein left side mein shadow
+    aayegi, vertical mein positive mein neeche aayegi shadow negative mein uar aayegi shadow 
+    spread means kitna fail rha hai shadow
+    box shadow properties image mein use hoga ya content mein use hoga ,text shadow text ke liye use krnge 
+    lekin css mein box shadow use karenge
+     */
+
+}

@@ -1,0 +1,18 @@
+.box{
+    /* height: 260px; */
+    width: 200px;
+    padding-left: 25px;
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 5px;
+    margin: 20px;
+    /* container mein height nhi dena */
+}
+.icon{
+color: aqua;
+font-size: 25px;
+}
+.box h2{
+    color: rgb(2, 2, 48)
+}

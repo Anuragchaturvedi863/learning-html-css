@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 50px;
+
+}
+/* justify content sirf row par lagti hai
+justify content ki 6 values hoti hai
+start center end space-evenly space-around space-between
+jusitfy content se child ki space adjust krne ke liye bina margin ke 
+justify content jab hi apply hoga jab display: flex; property lagi hogi
+start- dono child jese hai wesa rhega starting mein 
+end-
+center-
+space-between-first aur second child start aur end mein hogi beech mein space
+space-evenly - space aur child sab ka space same hai
+space-around-start aur end mein space hoga equal beech mein childs
+align-items center - column mein center mein krne ke liye karte hai
+justify content row ke liye hota hai 
+gap- align center mein do child ke beech mein thoda spac ,space between mein zyada space aa jaega
+margin - negative mein margin dene se upar shift hota hai
+*/
+.container div h2{
+    font-size: 50px;
+}
+.container div p{
+    margin: -23px;
+}

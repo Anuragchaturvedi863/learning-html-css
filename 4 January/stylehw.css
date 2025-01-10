@@ -1,0 +1,38 @@
+.container{
+    background-color: rgba(7, 24, 99, 0.842);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container div h4{
+    color: white;
+}
+.container div h1{
+    color: white;
+    font-size: 35px;
+    margin-top: -10px;
+}
+.container div button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    box-shadow: 1px 1px;
+    margin-top: -30px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container1 div button{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-size: 10px;
+
+}

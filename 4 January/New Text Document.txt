@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 50px;
+
+}
+
+.container div h2{
+    font-size: 50px;
+}
+.container div p{
+    margin: -23px;
+}

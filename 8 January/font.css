@@ -1,0 +1,12 @@
+.font1{
+    font-family: "Playwrite AU SA", serif;
+
+}
+.font2{
+    font-family: "Roboto", serif;
+
+}
+.hero{
+    background-image: url(/KTM-Bike.jpeg);
+    height: 100vh;
+}

@@ -1,0 +1,19 @@
+.font1{
+    font-family: "Playwrite AU SA", serif;
+
+}
+.font2{
+    font-family: "Roboto", serif;
+
+}
+.hero{
+    background-image: url(/KTM-Bike.jpeg);
+    height: 100vh;
+}
+/* font agar randon hai toh sabke system par nhi chalenge isliye google fonts use karenge wo sabke system par
+chalenge google fonts website par jaenge fir font par click karke get font karenge ye pehla select hoga font agr dusra
+fot bhi select karna toh get font kareneg toh 2 font select hojaenge, website par 3-4 se zyada fonts ache nhi lagte
+toh kitne bhi fonts select kar sakte fir get embed code karenge toh wo dono fonts ke hisaab se link bana ke de
+dega fir link ke code ko copy karna fir yaha html mein head tag paste kar dena hai
+ab css mein 1st font ke liye font-family: "Roboto", serif; ye wla coe copy krenge css ke pue code mein
+aise hi second code ka font family wla code copy krnge fir dono code ko css mein target krenge  */

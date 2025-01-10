@@ -1,0 +1,43 @@
+.wrapper{
+    height: 100vh;
+    /* agr height 100vh iss class mein nhi dete section jitni height rehti ,height dene se pure viewport(pure browser ki screen) 
+      par height agyi matlab pure screen par background color yellow hogya, iss section mein content nhi hai isliye height di
+     agar content hota toh height nhi dete ,jitna content hota utni height rhti
+     100vh=viewport height,10vw=viewport width
+    row mein height dete ,column mein width dete */
+    background-color: yellow;
+    display: grid; 
+    /* display grid lgane se child ne parent ko cover kar lia matlab 6 div ne pura yellow cover kar lia ,yellow
+    nhi dikh raha agar
+    nahi karte toh upr blue mein 6 child rehte aur parent pure screen par yellow rehta  */
+    /* parent mein display grid denge */
+    /* grid-template-columns: 300px 250px 300px; */
+    /* grid-template-columns se columns create karte, kitne create karne hai apne upar hai 1,2,3,4 etc kitne bhi 
+    kar sakte hai, isme 3 kare hai ,column mein width rehti , toh 1st column 300px width ki 2nd 250px width ki
+    and 3rd column 300px width ki toh ab 3 column ban uske andar 6 div hai ,3rd column mein space hai isliye pura
+    cover nhi hua yellow dikh rha hai isliye 3rd column mein auto lga denge*/
+    /* grid-template-columns: 300px 250px auto; */
+    /* isme 3rd column ne jitna space tha pura cover kr lia agr 2nd column ki width 250 se 50bi kar dete toh bhi 
+    3rd column pura cover kar deta */
+    grid-template-columns: auto auto auto;
+    /* isme teeno column equal chahiy aur pura cover kare toh teeno mein auto lga diya
+    yaha apan ne row nhi banayi hai by default 2 row ban gyi vertically ,leti hui , ye responsive nhai hai
+    isko karna padega   */
+    
+    /* grid-template-rows: 200px 300px; */
+    /* jab grid template rows nhi lagaya tha toh by default 2 rows thi dono auto pr thi lekin jab row create kari
+    1st waali 200px and second waali 300px toh neech space bach gya*/
+    grid-template-rows: 50px 50px 100px;
+    /* ab second waali row par auto lagane se space jo yellow mein tha cover ho gya jitni wrapper ki heigh thi utna
+    yaha pehle 6 div the toh third row ki height lgane se bhnhi dikh rha tha lekin 10 div kare toh 3rd row
+    ki height 100px dikhne lagi iska matlab phle 6 diva ka content tha toh utni hi height dikha rha tha
+    ab 10 div ka content hai toh utni height dikha rha, yaani height content ke hisaab se lgti */
+}
+.ch1,.ch2,.ch3,.ch4,.ch5,.ch6,.ch7,.ch8,.ch9{
+    background-color: blue;
+    border: 2px solid black;
+    /* saare div alag alag dikhe toh border lga di ab by default black arhi hai lekin color black kar di border ki */
+    color: white;
+    /* parent ke andar child hai toh parent fir space fir child se target karte css mein, lekin yaha 6 child class hai
+    to .ch1,.ch2 comma use karenge sab child mein lgane ke liye */
+}
