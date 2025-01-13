@@ -1,0 +1,12 @@
+/* pseudo elements :: */
+/* pseudo class :  */
+/* .para::first-letter */
+/* if we want to change the state of the element we use pseudo selectors */
+.para::first-line{
+    color: red;
+    font-size: 30px;
+    text-decoration: underline;
+}
+input::placeholder{
+    color: red;
+}
