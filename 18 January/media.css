@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+}
+.head{
+    font-size: 80px;
+}
+/* @media screen and (max-width: 600px)  */
+/* @media screen and (min-width: 600px) */
+@media screen and (min-width : 400px) and (max-width : 700px){
+    /* and mein space dena zaruri hai */
+    body{
+        background-color: red;
+    }
+    .head{
+        font-size: 40px;
+    }
+}

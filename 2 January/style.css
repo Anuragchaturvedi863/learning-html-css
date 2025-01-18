@@ -11,12 +11,14 @@
             |
     - - - - -    -ye horizontal line border hai border aur content ke beech mein space ko
     padding bolte hai
-    yaha bina padding ke lorem data ekdum chipka hua tha border se left aur top se ,button chipka hua tha bottem
+    yaha bina padding ke lorem data ekdum chipka hua tha border se left aur top se ,button chipka hua tha bottem aur left se
     se right se theek tha isliye chipka hua na lage isliye padding use kari
 
 
-    yaha par chaaro direction mein same padding krni hai toh shorthand use karenge jese 30px top bottom left right */
-    border: 13px double blue;
+    yaha par chaaro direction mein same padding krni hai toh shorthand use karenge jese padding: value: (same for all side)
+    padding: value1 value2; (value1-top & bottom value2 -left & right)
+    padding: value1 value2 value3 value4 (clockwise direction top right bottom left)*/
+    border: 13px double blue; 
     /* border shorthand: thickness(in px) style color; */
     /* border style - solid,dashed,dotted,double yaha wavy nahi hai */
 }
@@ -42,4 +44,4 @@
 /* ye shorthand hai 10px-(top bottom mein apply hoga) and 40px-(left and right mein)   */
 h1{
     color: aqua;
-}
+}         

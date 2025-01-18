@@ -1,0 +1,36 @@
+.navbar{
+    /* background-color: lightcoral; */
+    background-color: rgba(240, 128, 128, 0.404);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: sticky; */
+    position: fixed;
+    width: 100%;
+    /* top: 50px; */
+    top: 0;
+}
+.navbar ul{
+display: flex;
+gap: 30px;
+list-style: none;
+}
+h2{
+    text-align: center;
+}
+/* static relative sticky fixed absolute
+sirf sticky hai jisse top wali value use karni rehti */
+.icon{
+    display: flex;
+    justify-content: end;
+}
+.arrowicon{
+    font-size: 30px;
+    position: fixed;
+    bottom: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    
+ 
+}

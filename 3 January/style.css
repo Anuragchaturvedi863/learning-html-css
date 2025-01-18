@@ -9,7 +9,7 @@
     padding: 20px;
     /* margin:30px */
     /* padding jese margin ka shorthand hoga
-    all sides krni hai toh sirf ek 30px, 20px 30px-left right top bottom
+    all sides krni hai toh sirf ek 30px, 20px 30px- top bottom left right
     margin - container ya border ke outside space dene ke liye margin use karte
     agar container and container1 ek dusre se chipke hai space nhi hai toh space dene ke liye margin lgaenge
     margin top lgane se container1 neeche khisak jaega */

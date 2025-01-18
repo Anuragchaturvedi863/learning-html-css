@@ -1,0 +1,33 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+}
+.child:hover{
+    animation-name: drift;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes drift{
+    0%{
+        rotate: 0deg;
+
+    }
+    50%{
+       
+        rotate: -45deg;
+    }
+    100%{
+       rotate: 45deg;
+    }
+}
+/* .child{
+    animation-name: drift;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+} */
